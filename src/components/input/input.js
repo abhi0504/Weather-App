@@ -23,9 +23,10 @@ class Input extends Component {
         }
 
         return (
-            <div className="Form">
-                <input type="text" name="name" placeholder="city" onChange={cityHandler} />
-                <input type="text" name="name" placeholder="country" onChange={countryHandler} />
+            <div className="background Form">
+                <h1 className="header">Weather Forcast</h1>
+                <input type="text" className="input" placeholder="Enter State" onChange={cityHandler} />
+                <input type="text" className="input" placeholder="Enter Country" onChange={countryHandler} />
                 <Link to={{
                     pathname: "/weatherpage",
                     state: {
@@ -33,7 +34,7 @@ class Input extends Component {
                         country: this.state.country
                     }
                 }} >
-                    <Button>Submit</Button>
+                    <Button className="Button">Submit</Button>
                 </Link>
             </div>
         )

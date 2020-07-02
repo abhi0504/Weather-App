@@ -8,3 +8,26 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.background {
+    background-image: url("https://cdn.dribbble.com/users/32615/screenshots/492303/weather.gif");
+ }
+
+ .header {
+     font-family: fantasy;
+     font-size: 6rem;
+     color: black;
+  }
+
+  .input {
+      margin-bottom: 10px;
+      border-radius: 40px;
+      padding: 10px;
+      background-color: floralwhite ;
+    }
+
+ .Button {
+     border-radius: 25px;
+     width: 200px;
+     font-weight: bold;
+ }
